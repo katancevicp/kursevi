@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="slike/logo.png">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Prijava</h2>
+
+    <form>
+
+        <p> Ime: </p>
+        <input type="text">
+
+        <p> Prezime: </p>
+        <input type="text">
+
+        <p> E-mail: </p>
+        <input type="email" placeholder="example@example.com" required>
+
+        <p> Telefon: </p>
+        <input type="number" placeholder="+381">
+        
+        <p>Kurs:</p>
+        <select id="kurs" name="kurs">
+            <option value="photoshop">Photoshop</option>
+            <option value="c#">C# Programiranje</option>
+            <option value="htmlcss">HTML & CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+
+        <p> Pol: </p>
+        <input type="radio" name="pol"> Muski
+        <input type="radio" name="pol"> Zenski
+
+        <br><br>
+        <input type="submit" value="Posalji">
+        <input type="reset" value="Obrisi podatke">
+    </form>
+    <a href="index.html"><h3>Vrati se na pocetnu stranicu</h3></a>
+
+</body>
+</html>
